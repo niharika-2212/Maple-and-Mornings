@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
-        <div className="footer-heading">Quick links</div>
+        <div className="heading-small">Quick links</div>
         <a href="#hero">Home</a>
         <a href="#hero">About</a>
         <a href="#hero">Menu</a>
@@ -15,7 +15,7 @@ function Footer() {
         <a href="#hero">Contact</a>
       </div>
       <div className="footer-content">
-        <div className="footer-heading">Contact</div>
+        <div className="heading-small">Contact</div>
         <div>Email: <a href="mailto:hello@mapleandmornings.com">hello@mapleandmornings.com</a></div>
         <div>Phone: +91 92831 38482</div>
         <div className="socials">
@@ -24,7 +24,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-content">
-        <div className="footer-heading">Location</div>
+        <div className="heading-small">Location</div>
         <div>1st Floor, Eldora Arcade,<br/>
           Church Street, Bangalore</div>
         <div className="copyright">© 2025 Brew & Bloom Café. All rights reserved.</div>

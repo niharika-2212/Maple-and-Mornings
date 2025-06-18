@@ -16,6 +16,8 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .hero-heading{
@@ -35,5 +37,14 @@
   }
   .hero-subheading{
     font-size: 20px;
+  }
+}
+
+@media(max-width:768px){
+  .hero-heading{
+    font-size: 40px;
+  }
+  .hero-subheading{
+    font-size: 16px;
   }
 }

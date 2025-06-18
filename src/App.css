@@ -11,7 +11,9 @@ html, body{
 h1,h2,h3,.heading{
   font-family: 'Quicksand', sans-serif;
 }
-
+.heading-small{
+  font-size: 20px;
+}
 a{
   text-decoration: none;
   color: #000000;
@@ -43,21 +45,12 @@ a{
   color: #ffffff;
 }
 
-
-.menu{
-  background-color: #ffffff;
-  padding: 4rem 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
+.icons{
+  width: 30px;
+  height: 30px;
 }
 
-.filter{
-  display: flex;
-  gap: 20px;
-}
+
 
 @media((min-width:768px) and (max-width:1024px)){
     .heading{
@@ -66,5 +59,14 @@ a{
 
   .sub-heading{
     font-size: 28px;
+  }
+}
+
+@media(max-width:768px){
+  .heading{
+    font-size: 32px;
+  }
+  .sub-heading{
+    font-size: 24px;
   }
 }

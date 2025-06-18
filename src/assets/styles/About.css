@@ -17,11 +17,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap-reverse;
   gap: 20px;
 }
 
 .about-left{
   width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .about-image{
@@ -30,6 +34,16 @@
 }
 
 @media((min-width:768px) and (max-width:1024px)){
+  .about-image{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media(max-width:768px){
+  .about-content>div{
+    justify-content: center;
+  }
   .about-image{
     width: 300px;
     height: 300px;
