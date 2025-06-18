@@ -1,0 +1,39 @@
+.hero{
+  background-image: url("/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-heading{
+  font-size: 60px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.hero-subheading{
+  font-size: 24px;
+}
+
+
+@media((min-width:768px) and (max-width:1024px)){
+  .hero-heading{
+    font-size: 48px;
+  }
+  .hero-subheading{
+    font-size: 20px;
+  }
+}
