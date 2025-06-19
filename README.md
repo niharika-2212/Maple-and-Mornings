@@ -1,5 +1,5 @@
 # Maple and Mornings - Cafe Website
-A fully responsive one-page website for the fictional café **Maple & Mornings**, built using **React + Vite**.
+A fully responsive one-page website for the fictional café **Maple & Mornings**, built using **React + Vite** and **CSS**
 
 ## Design
 ![Full website picture](fullpicture.png)
