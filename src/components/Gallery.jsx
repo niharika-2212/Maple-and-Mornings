@@ -16,7 +16,7 @@ return(
       <div className="gallery-grid">
         {galleryImages.map((img,index)=>{
           return(
-          <img src={img.image}  alt={img.caption} key={index}/>
+          <img src={img.image} loading="lazy" alt={img.caption} key={index}/>
           )
         })}
       </div>
