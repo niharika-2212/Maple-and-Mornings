@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="navbar" id="navbar">
       <div className="navbar-logo">
-        <img src="/name.png" className="logo" />
+        <img src="/name.png" className="logo" alt="logo image with a hot coffee cup"/>
         <a href="#hero" className="web-name">Maple & Mornings</a>
       </div>
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>

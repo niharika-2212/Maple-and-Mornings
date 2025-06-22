@@ -2,12 +2,12 @@ import React from "react";
 import "../assets/styles/Gallery.css";
 
 const galleryImages = [
-  {image: "/gallery1.png" , caption: "interior"},
-  {image: "/gallery2.png" , caption: "interior"},
-  {image: "/gallery3.png" , caption: "window corner"},
-  {image: "/gallery4.png" , caption: "interior"},
-  {image: "/gallery5.png" , caption: "interior"},
-  {image: "/gallery6.png" , caption: "interior"},
+  {image: "/gallery1.webp" , caption: "interior"},
+  {image: "/gallery2.webp" , caption: "interior"},
+  {image: "/gallery3.webp" , caption: "window corner"},
+  {image: "/gallery4.webp" , caption: "interior"},
+  {image: "/gallery5.webp" , caption: "interior"},
+  {image: "/gallery6.webp" , caption: "interior"},
 ]
 function Gallery(){
 return(

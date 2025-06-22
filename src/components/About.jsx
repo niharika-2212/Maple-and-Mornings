@@ -16,7 +16,7 @@ function About() {
               our signature sourdough toast, we're here to
               make each moment count.</div>
           </div>
-          <img src="/about.jpg" className="about-image" />
+          <img src="/about.webp" className="about-image" alt="modern kitchen interior with countertop"/>
         </div>
       </div>
     </div>
